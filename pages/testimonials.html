@@ -1,0 +1,1897 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="../assets/images/favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Testimonials — EkklésiasOne</title>
+    <meta
+      name="description"
+      content="EkklésiasOne is the intelligent church management system that simplifies member management, event planning, online giving, attendance tracking, and more."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Marcellus&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../assets/css/main.css" />
+  </head>
+
+  <body class="antialiased min-h-screen flex flex-col">
+    <nav
+      id="site-nav"
+      class="fixed top-0 inset-x-0 z-[99999] transition-[background-color,box-shadow,border-color] duration-300 bg-[#131330] border-b border-white/10"
+    >
+      <div
+        class="container mx-auto px-5 sm:px-6 lg:px-8 h-20 flex items-center justify-between gap-6"
+      >
+        <a
+          href="../pages/home.html"
+          class="flex items-center gap-2.5 no-underline"
+        >
+          <img
+            src="../assets/images/favicon.png"
+            alt="EkklésiasOne"
+            class="w-17 h-16 rounded-lg"
+          />
+        </a>
+
+        <div class="hidden lg:flex items-center gap-6 xl:gap-8">
+          <a
+            data-nav-link
+            href="../pages/home.html#features"
+            class="text-sm font-medium no-underline transition-colors text-white/90 hover:text-primary"
+            >Features</a
+          >
+          <a
+            data-nav-link
+            href="../pages/home.html#pricing"
+            class="text-sm font-medium no-underline transition-colors text-white/90 hover:text-primary"
+            >Pricing</a
+          >
+          <a
+            data-nav-link
+            href="../pages/home.html#testimonials"
+            class="text-sm font-medium no-underline transition-colors text-white/90 hover:text-primary"
+            >Testimonials</a
+          >
+          <a
+            data-nav-link
+            href="../pages/home.html#overview"
+            class="text-sm font-medium no-underline transition-colors text-white/90 hover:text-primary"
+            >About</a
+          >
+        </div>
+
+        <div class="hidden lg:flex items-center gap-3.5">
+          <a
+            href="https://ekklesiasone.com/member?page=login"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="px-5 py-2.5 rounded-full text-sm font-semibold text-primary border border-primary hover:bg-primary/10 transition-all no-underline flex items-center gap-2"
+            >Member Login <i data-lucide="user" class="w-4 h-4 text-primary"></i
+          ></a>
+          <a
+            href="https://ekklesiasone.com/login"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="px-5 py-2.5 rounded-full text-sm font-semibold text-white bg-primary hover:opacity-90 shadow-md shadow-primary/30 transition-all no-underline flex items-center gap-2"
+            >Church Login <i data-lucide="church" class="w-4 h-4 text-white"></i
+          ></a>
+        </div>
+
+        <button
+          id="mobile-menu-open"
+          aria-label="Open menu"
+          class="lg:hidden p-2.5 -mr-2 rounded-xl text-white hover:bg-white/10 cursor-pointer"
+        >
+          <i data-lucide="menu" class="w-6 h-6"></i>
+        </button>
+      </div>
+    </nav>
+
+    <div
+      id="mobile-menu-overlay"
+      class="fixed inset-0 lg:hidden transition-opacity duration-300 opacity-0 pointer-events-none"
+    >
+      <div
+        id="mobile-menu-backdrop"
+        class="absolute inset-0 bg-black/60 backdrop-blur-sm"
+      ></div>
+      <div
+        id="mobile-menu-panel"
+        class="absolute top-0 right-0 h-full w-[85%] max-w-sm bg-[#131330] border-l border-white/10 shadow-2xl flex flex-col transition-transform duration-300 ease-out translate-x-full"
+      >
+        <div
+          class="flex items-center justify-between p-5 border-b border-white/10"
+        >
+          <a
+            href="../pages/home.html"
+            class="flex items-center gap-2.5 no-underline"
+            ><img
+              src="../assets/images/favicon.png"
+              alt="EkklésiasOne"
+              class="w-10 h-10 rounded-lg"
+            /><span class="font-marcellus text-white text-lg"
+              >EkklésiasOne</span
+            ></a
+          >
+          <button
+            id="mobile-menu-close"
+            aria-label="Close menu"
+            class="p-2 rounded-full bg-white/10 text-white hover:bg-white/20 cursor-pointer"
+          >
+            <i data-lucide="x" class="w-5 h-5"></i>
+          </button>
+        </div>
+        <div class="flex-1 overflow-y-auto px-5 py-6 flex flex-col">
+          <div class="flex flex-col gap-2">
+            <a
+              data-nav-link
+              href="../pages/home.html#features"
+              class="px-4 py-3 rounded-xl font-medium text-base no-underline text-white/90 hover:bg-white/5"
+              >Features</a
+            >
+            <a
+              data-nav-link
+              href="../pages/home.html#pricing"
+              class="px-4 py-3 rounded-xl font-medium text-base no-underline text-white/90 hover:bg-white/5"
+              >Pricing</a
+            >
+            <a
+              data-nav-link
+              href="../pages/home.html#testimonials"
+              class="px-4 py-3 rounded-xl font-medium text-base no-underline text-white/90 hover:bg-white/5"
+              >Testimonials</a
+            >
+            <a
+              data-nav-link
+              href="../pages/home.html#overview"
+              class="px-4 py-3 rounded-xl font-medium text-base no-underline text-white/90 hover:bg-white/5"
+              >About</a
+            >
+          </div>
+          <div class="mt-auto pt-8 flex flex-col gap-3">
+            <a
+              href="https://ekklesiasone.com/member?page=login"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="py-3 px-4 text-center font-semibold text-primary border border-primary rounded-full no-underline"
+              >Member Login</a
+            >
+            <a
+              href="https://ekklesiasone.com/login"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="py-3 px-4 text-center font-semibold text-white bg-primary rounded-full no-underline"
+              >Church Login</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <style>
+      #site-nav.nav-scrolled {
+        background-color: rgb(19 19 48 / 0.95);
+        backdrop-filter: blur(24px);
+        box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.2);
+      }
+    </style>
+
+    <main class="flex-1 pt-20">
+      
+      <div
+        class="relative pt-16 pb-20 lg:pt-20 lg:pb-24 bg-cream overflow-hidden"
+      >
+        <div
+          class="absolute inset-0 pointer-events-none opacity-[0.35]"
+          style="
+            background-image:
+              linear-gradient(#dcd5cc 1px, transparent 1px),
+              linear-gradient(90deg, #dcd5cc 1px, transparent 1px);
+            background-size: 56px 56px;
+            mask-image: radial-gradient(
+              ellipse 70% 60% at 50% 40%,
+              black 30%,
+              transparent 70%
+            );
+          "
+        ></div>
+        <div class="relative z-10 max-w-4xl mx-auto text-center px-5">
+          <p
+            data-reveal
+            class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white border border-slate-200 shadow-sm text-primary font-semibold text-xs uppercase tracking-[0.15em] mb-6"
+          >
+            <span class="w-1.5 h-1.5 rounded-full bg-secondary"></span
+            >Testimonials
+          </p>
+          <h1
+            data-reveal
+            class="font-marcellus font-normal text-4xl sm:text-5xl lg:text-6xl text-white tracking-tight leading-[1.1] mb-6"
+          >
+            Hear it from our churches
+          </h1>
+          <p
+            data-reveal
+            data-delay="0.1"
+            class="text-lg sm:text-xl text-white max-w-2xl mx-auto leading-relaxed"
+          >
+            Thousands of church leaders trust EkklésiasOne every week. Here's
+            what they say.
+          </p>
+        </div>
+      </div>
+
+      <!-- Testimonials -->
+      <section
+        id="testimonials"
+        class="py-14 md:py-20 bg-[#F5F5FA] overflow-hidden"
+      >
+        <div
+          class="container mx-auto px-5 sm:px-6 lg:px-8 mb-12 lg:mb-16 text-center"
+        >
+          <p
+            data-reveal
+            class="inline-flex items-center gap-1.5 text-xs uppercase tracking-widest font-medium text-primary mb-3"
+          >
+            <span>☆</span> TESTIMONIALS
+          </p>
+          <h2
+            data-reveal
+            class="font-marcellus font-normal text-3xl sm:text-4xl lg:text-5xl text-ink leading-tight tracking-tight"
+          >
+            Trusted by Church Leaders Across Canada
+          </h2>
+        </div>
+        <div data-reveal class="relative max-w-[100vw]">
+          <div
+            class="absolute inset-y-0 left-0 w-16 sm:w-32 md:w-48 bg-linear-to-r from-[#F5F5FA] to-transparent z-10 pointer-events-none"
+          ></div>
+          <div
+            class="absolute inset-y-0 right-0 w-16 sm:w-32 md:w-48 bg-linear-to-l from-[#F5F5FA] to-transparent z-10 pointer-events-none"
+          ></div>
+          <div class="">
+            <div class="w-full overflow-hidden py-2">
+              <div
+                class="flex items-stretch gap-4 w-max marquee-row-right"
+                style="--marquee-duration: 38s"
+              >
+                <div class="w-85 sm:w-100 md:w-110 shrink-0 flex flex-col">
+                  <div
+                    class="bg-white rounded-2xl border border-slate-200/80 p-6 sm:p-7 flex flex-col justify-between h-full hover:shadow-md transition-shadow"
+                  >
+                    <div>
+                      <div class="flex gap-1 mb-4">
+                        <i
+                          data-lucide="star"
+                          class="w-[15px] h-[15px] text-[#66B2B2] fill-[#66B2B2]"
+                        ></i>
+                        <i
+                          data-lucide="star"
+                          class="w-[15px] h-[15px] text-[#66B2B2] fill-[#66B2B2]"
+                        ></i>
+                        <i
+                          data-lucide="star"
+                          class="w-[15px] h-[15px] text-[#66B2B2] fill-[#66B2B2]"
+                        ></i>
+                        <i
+                          data-lucide="star"
+                          class="w-[15px] h-[15px] text-[#66B2B2] fill-[#66B2B2]"
+                        ></i>
+                        <i
+                          data-lucide="star"
+                          class="w-[15px] h-[15px] text-[#66B2B2] fill-[#66B2B2]"
+                        ></i>
+                      </div>
+                      <p
+                        class="text-[#1C1A40BF] text-sm leading-relaxed mb-6 font-normal"
+                      >
+                        "EkklésiasOne replaced four separate tools we were
+                        paying for. The integrated giving and accounting alone
+                        saved us 15 hours a month."
+                      </p>
+                    </div>
+                    <div
+                      class="flex items-center gap-3.5 pt-4 border-t border-slate-100"
+                    >
+                      <div
+                        class="w-10 h-10 rounded-full bg-[#131433] text-white font-bold flex items-center justify-center text-sm shrink-0 shadow-sm"
+                      >
+                        P
+                      </div>
+                      <div class="overflow-hidden">
+                        <p
+                          class="font-medium text-ink text-sm sm:text-base leading-tight truncate"
+                        >
+                          Pastor Michael Adeyemi
+                        </p>
+                        <p class="text-xs text-slate-500 truncate mt-0.5">
+                          Lead Pastor · New Life Church, Toronto
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="w-85 sm:w-100 md:w-110 shrink-0 flex flex-col">
+                  <div
+                    class="bg-white rounded-2xl border border-slate-200/80 p-6 sm:p-7 flex flex-col justify-between h-full hover:shadow-md transition-shadow"
+                  >
+                    <div>
+                      <div class="flex gap-1 mb-4">
+                        <i
+                          data-lucide="star"
+                          class="w-[15px] h-[15px] text-[#66B2B2] fill-[#66B2B2]"
+                        ></i>
+                        <i
+                          data-lucide="star"
+                          class="w-[15px] h-[15px] text-[#66B2B2] fill-[#66B2B2]"
+                        ></i>
+                        <i
+                          data-lucide="star"
+                          class="w-[15px] h-[15px] text-[#66B2B2] fill-[#66B2B2]"
+                        ></i>
+                        <i
+                          data-lucide="star"
+                          class="w-[15px] h-[15px] text-[#66B2B2] fill-[#66B2B2]"
+                        ></i>
+                        <i
+                          data-lucide="star"
+                          class="w-[15px] h-[15px] text-[#66B2B2] fill-[#66B2B2]"
+                        ></i>
+                      </div>
+                      <p
+                        class="text-[#1C1A40BF] text-sm leading-relaxed mb-6 font-normal"
+                      >
+                        "The onboarding team was incredible. We were fully
+                        migrated in two weeks. Our staff actually enjoys using
+                        the platform now."
+                      </p>
+                    </div>
+                    <div
+                      class="flex items-center gap-3.5 pt-4 border-t border-slate-100"
+                    >
+                      <div
+                        class="w-10 h-10 rounded-full bg-[#131433] text-white font-bold flex items-center justify-center text-sm shrink-0 shadow-sm"
+                      >
+                        J
+                      </div>
+                      <div class="overflow-hidden">
+                        <p
+                          class="font-medium text-ink text-sm sm:text-base leading-tight truncate"
+                        >
+                          Jennifer Osei
+                        </p>
+                        <p class="text-xs text-slate-500 truncate mt-0.5">
+                          Church Administrator · Grace Community, Calgary
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="w-85 sm:w-100 md:w-110 shrink-0 flex flex-col">
+                  <div
+                    class="bg-white rounded-2xl border border-slate-200/80 p-6 sm:p-7 flex flex-col justify-between h-full hover:shadow-md transition-shadow"
+                  >
+                    <div>
+                      <div class="flex gap-1 mb-4">
+                        <i
+                          data-lucide="star"
+                          class="w-[15px] h-[15px] text-[#66B2B2] fill-[#66B2B2]"
+                        ></i>
+                        <i
+                          data-lucide="star"
+                          class="w-[15px] h-[15px] text-[#66B2B2] fill-[#66B2B2]"
+                        ></i>
+                        <i
+                          data-lucide="star"
+                          class="w-[15px] h-[15px] text-[#66B2B2] fill-[#66B2B2]"
+                        ></i>
+                        <i
+                          data-lucide="star"
+                          class="w-[15px] h-[15px] text-[#66B2B2] fill-[#66B2B2]"
+                        ></i>
+                        <i
+                          data-lucide="star"
+                          class="w-[15px] h-[15px] text-[#66B2B2] fill-[#66B2B2]"
+                        ></i>
+                      </div>
+                      <p
+                        class="text-[#1C1A40BF] text-sm leading-relaxed mb-6 font-normal"
+                      >
+                        "The mobile app alone has transformed how our
+                        congregation engages. Giving is up 23% since launch and
+                        attendance tracking is effortless."
+                      </p>
+                    </div>
+                    <div
+                      class="flex items-center gap-3.5 pt-4 border-t border-slate-100"
+                    >
+                      <div
+                        class="w-10 h-10 rounded-full bg-[#131433] text-white font-bold flex items-center justify-center text-sm shrink-0 shadow-sm"
+                      >
+                        P
+                      </div>
+                      <div class="overflow-hidden">
+                        <p
+                          class="font-medium text-ink text-sm sm:text-base leading-tight truncate"
+                        >
+                          Pastor David Lin
+                        </p>
+                        <p class="text-xs text-slate-500 truncate mt-0.5">
+                          Executive Pastor · Harvest Fellowship, Vancouver
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="w-85 sm:w-100 md:w-110 shrink-0 flex flex-col">
+                  <div
+                    class="bg-white rounded-2xl border border-slate-200/80 p-6 sm:p-7 flex flex-col justify-between h-full hover:shadow-md transition-shadow"
+                  >
+                    <div>
+                      <div class="flex gap-1 mb-4">
+                        <i
+                          data-lucide="star"
+                          class="w-[15px] h-[15px] text-[#66B2B2] fill-[#66B2B2]"
+                        ></i>
+                        <i
+                          data-lucide="star"
+                          class="w-[15px] h-[15px] text-[#66B2B2] fill-[#66B2B2]"
+                        ></i>
+                        <i
+                          data-lucide="star"
+                          class="w-[15px] h-[15px] text-[#66B2B2] fill-[#66B2B2]"
+                        ></i>
+                        <i
+                          data-lucide="star"
+                          class="w-[15px] h-[15px] text-[#66B2B2] fill-[#66B2B2]"
+                        ></i>
+                        <i
+                          data-lucide="star"
+                          class="w-[15px] h-[15px] text-[#66B2B2] fill-[#66B2B2]"
+                        ></i>
+                      </div>
+                      <p
+                        class="text-[#1C1A40BF] text-sm leading-relaxed mb-6 font-normal"
+                      >
+                        "EkklésiasOne replaced four separate tools we were
+                        paying for. The integrated giving and accounting alone
+                        saved us 15 hours a month."
+                      </p>
+                    </div>
+                    <div
+                      class="flex items-center gap-3.5 pt-4 border-t border-slate-100"
+                    >
+                      <div
+                        class="w-10 h-10 rounded-full bg-[#131433] text-white font-bold flex items-center justify-center text-sm shrink-0 shadow-sm"
+                      >
+                        P
+                      </div>
+                      <div class="overflow-hidden">
+                        <p
+                          class="font-medium text-ink text-sm sm:text-base leading-tight truncate"
+                        >
+                          Pastor Michael Adeyemi
+                        </p>
+                        <p class="text-xs text-slate-500 truncate mt-0.5">
+                          Lead Pastor · New Life Church, Toronto
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="w-85 sm:w-100 md:w-110 shrink-0 flex flex-col">
+                  <div
+                    class="bg-white rounded-2xl border border-slate-200/80 p-6 sm:p-7 flex flex-col justify-between h-full hover:shadow-md transition-shadow"
+                  >
+                    <div>
+                      <div class="flex gap-1 mb-4">
+                        <i
+                          data-lucide="star"
+                          class="w-[15px] h-[15px] text-[#66B2B2] fill-[#66B2B2]"
+                        ></i>
+                        <i
+                          data-lucide="star"
+                          class="w-[15px] h-[15px] text-[#66B2B2] fill-[#66B2B2]"
+                        ></i>
+                        <i
+                          data-lucide="star"
+                          class="w-[15px] h-[15px] text-[#66B2B2] fill-[#66B2B2]"
+                        ></i>
+                        <i
+                          data-lucide="star"
+                          class="w-[15px] h-[15px] text-[#66B2B2] fill-[#66B2B2]"
+                        ></i>
+                        <i
+                          data-lucide="star"
+                          class="w-[15px] h-[15px] text-[#66B2B2] fill-[#66B2B2]"
+                        ></i>
+                      </div>
+                      <p
+                        class="text-[#1C1A40BF] text-sm leading-relaxed mb-6 font-normal"
+                      >
+                        "The onboarding team was incredible. We were fully
+                        migrated in two weeks. Our staff actually enjoys using
+                        the platform now."
+                      </p>
+                    </div>
+                    <div
+                      class="flex items-center gap-3.5 pt-4 border-t border-slate-100"
+                    >
+                      <div
+                        class="w-10 h-10 rounded-full bg-[#131433] text-white font-bold flex items-center justify-center text-sm shrink-0 shadow-sm"
+                      >
+                        J
+                      </div>
+                      <div class="overflow-hidden">
+                        <p
+                          class="font-medium text-ink text-sm sm:text-base leading-tight truncate"
+                        >
+                          Jennifer Osei
+                        </p>
+                        <p class="text-xs text-slate-500 truncate mt-0.5">
+                          Church Administrator · Grace Community, Calgary
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="w-85 sm:w-100 md:w-110 shrink-0 flex flex-col">
+                  <div
+                    class="bg-white rounded-2xl border border-slate-200/80 p-6 sm:p-7 flex flex-col justify-between h-full hover:shadow-md transition-shadow"
+                  >
+                    <div>
+                      <div class="flex gap-1 mb-4">
+                        <i
+                          data-lucide="star"
+                          class="w-[15px] h-[15px] text-[#66B2B2] fill-[#66B2B2]"
+                        ></i>
+                        <i
+                          data-lucide="star"
+                          class="w-[15px] h-[15px] text-[#66B2B2] fill-[#66B2B2]"
+                        ></i>
+                        <i
+                          data-lucide="star"
+                          class="w-[15px] h-[15px] text-[#66B2B2] fill-[#66B2B2]"
+                        ></i>
+                        <i
+                          data-lucide="star"
+                          class="w-[15px] h-[15px] text-[#66B2B2] fill-[#66B2B2]"
+                        ></i>
+                        <i
+                          data-lucide="star"
+                          class="w-[15px] h-[15px] text-[#66B2B2] fill-[#66B2B2]"
+                        ></i>
+                      </div>
+                      <p
+                        class="text-[#1C1A40BF] text-sm leading-relaxed mb-6 font-normal"
+                      >
+                        "The mobile app alone has transformed how our
+                        congregation engages. Giving is up 23% since launch and
+                        attendance tracking is effortless."
+                      </p>
+                    </div>
+                    <div
+                      class="flex items-center gap-3.5 pt-4 border-t border-slate-100"
+                    >
+                      <div
+                        class="w-10 h-10 rounded-full bg-[#131433] text-white font-bold flex items-center justify-center text-sm shrink-0 shadow-sm"
+                      >
+                        P
+                      </div>
+                      <div class="overflow-hidden">
+                        <p
+                          class="font-medium text-ink text-sm sm:text-base leading-tight truncate"
+                        >
+                          Pastor David Lin
+                        </p>
+                        <p class="text-xs text-slate-500 truncate mt-0.5">
+                          Executive Pastor · Harvest Fellowship, Vancouver
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="w-85 sm:w-100 md:w-110 shrink-0 flex flex-col">
+                  <div
+                    class="bg-white rounded-2xl border border-slate-200/80 p-6 sm:p-7 flex flex-col justify-between h-full hover:shadow-md transition-shadow"
+                  >
+                    <div>
+                      <div class="flex gap-1 mb-4">
+                        <i
+                          data-lucide="star"
+                          class="w-[15px] h-[15px] text-[#66B2B2] fill-[#66B2B2]"
+                        ></i>
+                        <i
+                          data-lucide="star"
+                          class="w-[15px] h-[15px] text-[#66B2B2] fill-[#66B2B2]"
+                        ></i>
+                        <i
+                          data-lucide="star"
+                          class="w-[15px] h-[15px] text-[#66B2B2] fill-[#66B2B2]"
+                        ></i>
+                        <i
+                          data-lucide="star"
+                          class="w-[15px] h-[15px] text-[#66B2B2] fill-[#66B2B2]"
+                        ></i>
+                        <i
+                          data-lucide="star"
+                          class="w-[15px] h-[15px] text-[#66B2B2] fill-[#66B2B2]"
+                        ></i>
+                      </div>
+                      <p
+                        class="text-[#1C1A40BF] text-sm leading-relaxed mb-6 font-normal"
+                      >
+                        "EkklésiasOne replaced four separate tools we were
+                        paying for. The integrated giving and accounting alone
+                        saved us 15 hours a month."
+                      </p>
+                    </div>
+                    <div
+                      class="flex items-center gap-3.5 pt-4 border-t border-slate-100"
+                    >
+                      <div
+                        class="w-10 h-10 rounded-full bg-[#131433] text-white font-bold flex items-center justify-center text-sm shrink-0 shadow-sm"
+                      >
+                        P
+                      </div>
+                      <div class="overflow-hidden">
+                        <p
+                          class="font-medium text-ink text-sm sm:text-base leading-tight truncate"
+                        >
+                          Pastor Michael Adeyemi
+                        </p>
+                        <p class="text-xs text-slate-500 truncate mt-0.5">
+                          Lead Pastor · New Life Church, Toronto
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="w-85 sm:w-100 md:w-110 shrink-0 flex flex-col">
+                  <div
+                    class="bg-white rounded-2xl border border-slate-200/80 p-6 sm:p-7 flex flex-col justify-between h-full hover:shadow-md transition-shadow"
+                  >
+                    <div>
+                      <div class="flex gap-1 mb-4">
+                        <i
+                          data-lucide="star"
+                          class="w-[15px] h-[15px] text-[#66B2B2] fill-[#66B2B2]"
+                        ></i>
+                        <i
+                          data-lucide="star"
+                          class="w-[15px] h-[15px] text-[#66B2B2] fill-[#66B2B2]"
+                        ></i>
+                        <i
+                          data-lucide="star"
+                          class="w-[15px] h-[15px] text-[#66B2B2] fill-[#66B2B2]"
+                        ></i>
+                        <i
+                          data-lucide="star"
+                          class="w-[15px] h-[15px] text-[#66B2B2] fill-[#66B2B2]"
+                        ></i>
+                        <i
+                          data-lucide="star"
+                          class="w-[15px] h-[15px] text-[#66B2B2] fill-[#66B2B2]"
+                        ></i>
+                      </div>
+                      <p
+                        class="text-[#1C1A40BF] text-sm leading-relaxed mb-6 font-normal"
+                      >
+                        "The onboarding team was incredible. We were fully
+                        migrated in two weeks. Our staff actually enjoys using
+                        the platform now."
+                      </p>
+                    </div>
+                    <div
+                      class="flex items-center gap-3.5 pt-4 border-t border-slate-100"
+                    >
+                      <div
+                        class="w-10 h-10 rounded-full bg-[#131433] text-white font-bold flex items-center justify-center text-sm shrink-0 shadow-sm"
+                      >
+                        J
+                      </div>
+                      <div class="overflow-hidden">
+                        <p
+                          class="font-medium text-ink text-sm sm:text-base leading-tight truncate"
+                        >
+                          Jennifer Osei
+                        </p>
+                        <p class="text-xs text-slate-500 truncate mt-0.5">
+                          Church Administrator · Grace Community, Calgary
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="w-85 sm:w-100 md:w-110 shrink-0 flex flex-col">
+                  <div
+                    class="bg-white rounded-2xl border border-slate-200/80 p-6 sm:p-7 flex flex-col justify-between h-full hover:shadow-md transition-shadow"
+                  >
+                    <div>
+                      <div class="flex gap-1 mb-4">
+                        <i
+                          data-lucide="star"
+                          class="w-[15px] h-[15px] text-[#66B2B2] fill-[#66B2B2]"
+                        ></i>
+                        <i
+                          data-lucide="star"
+                          class="w-[15px] h-[15px] text-[#66B2B2] fill-[#66B2B2]"
+                        ></i>
+                        <i
+                          data-lucide="star"
+                          class="w-[15px] h-[15px] text-[#66B2B2] fill-[#66B2B2]"
+                        ></i>
+                        <i
+                          data-lucide="star"
+                          class="w-[15px] h-[15px] text-[#66B2B2] fill-[#66B2B2]"
+                        ></i>
+                        <i
+                          data-lucide="star"
+                          class="w-[15px] h-[15px] text-[#66B2B2] fill-[#66B2B2]"
+                        ></i>
+                      </div>
+                      <p
+                        class="text-[#1C1A40BF] text-sm leading-relaxed mb-6 font-normal"
+                      >
+                        "The mobile app alone has transformed how our
+                        congregation engages. Giving is up 23% since launch and
+                        attendance tracking is effortless."
+                      </p>
+                    </div>
+                    <div
+                      class="flex items-center gap-3.5 pt-4 border-t border-slate-100"
+                    >
+                      <div
+                        class="w-10 h-10 rounded-full bg-[#131433] text-white font-bold flex items-center justify-center text-sm shrink-0 shadow-sm"
+                      >
+                        P
+                      </div>
+                      <div class="overflow-hidden">
+                        <p
+                          class="font-medium text-ink text-sm sm:text-base leading-tight truncate"
+                        >
+                          Pastor David Lin
+                        </p>
+                        <p class="text-xs text-slate-500 truncate mt-0.5">
+                          Executive Pastor · Harvest Fellowship, Vancouver
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="w-85 sm:w-100 md:w-110 shrink-0 flex flex-col">
+                  <div
+                    class="bg-white rounded-2xl border border-slate-200/80 p-6 sm:p-7 flex flex-col justify-between h-full hover:shadow-md transition-shadow"
+                  >
+                    <div>
+                      <div class="flex gap-1 mb-4">
+                        <i
+                          data-lucide="star"
+                          class="w-[15px] h-[15px] text-[#66B2B2] fill-[#66B2B2]"
+                        ></i>
+                        <i
+                          data-lucide="star"
+                          class="w-[15px] h-[15px] text-[#66B2B2] fill-[#66B2B2]"
+                        ></i>
+                        <i
+                          data-lucide="star"
+                          class="w-[15px] h-[15px] text-[#66B2B2] fill-[#66B2B2]"
+                        ></i>
+                        <i
+                          data-lucide="star"
+                          class="w-[15px] h-[15px] text-[#66B2B2] fill-[#66B2B2]"
+                        ></i>
+                        <i
+                          data-lucide="star"
+                          class="w-[15px] h-[15px] text-[#66B2B2] fill-[#66B2B2]"
+                        ></i>
+                      </div>
+                      <p
+                        class="text-[#1C1A40BF] text-sm leading-relaxed mb-6 font-normal"
+                      >
+                        "EkklésiasOne replaced four separate tools we were
+                        paying for. The integrated giving and accounting alone
+                        saved us 15 hours a month."
+                      </p>
+                    </div>
+                    <div
+                      class="flex items-center gap-3.5 pt-4 border-t border-slate-100"
+                    >
+                      <div
+                        class="w-10 h-10 rounded-full bg-[#131433] text-white font-bold flex items-center justify-center text-sm shrink-0 shadow-sm"
+                      >
+                        P
+                      </div>
+                      <div class="overflow-hidden">
+                        <p
+                          class="font-medium text-ink text-sm sm:text-base leading-tight truncate"
+                        >
+                          Pastor Michael Adeyemi
+                        </p>
+                        <p class="text-xs text-slate-500 truncate mt-0.5">
+                          Lead Pastor · New Life Church, Toronto
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="w-85 sm:w-100 md:w-110 shrink-0 flex flex-col">
+                  <div
+                    class="bg-white rounded-2xl border border-slate-200/80 p-6 sm:p-7 flex flex-col justify-between h-full hover:shadow-md transition-shadow"
+                  >
+                    <div>
+                      <div class="flex gap-1 mb-4">
+                        <i
+                          data-lucide="star"
+                          class="w-[15px] h-[15px] text-[#66B2B2] fill-[#66B2B2]"
+                        ></i>
+                        <i
+                          data-lucide="star"
+                          class="w-[15px] h-[15px] text-[#66B2B2] fill-[#66B2B2]"
+                        ></i>
+                        <i
+                          data-lucide="star"
+                          class="w-[15px] h-[15px] text-[#66B2B2] fill-[#66B2B2]"
+                        ></i>
+                        <i
+                          data-lucide="star"
+                          class="w-[15px] h-[15px] text-[#66B2B2] fill-[#66B2B2]"
+                        ></i>
+                        <i
+                          data-lucide="star"
+                          class="w-[15px] h-[15px] text-[#66B2B2] fill-[#66B2B2]"
+                        ></i>
+                      </div>
+                      <p
+                        class="text-[#1C1A40BF] text-sm leading-relaxed mb-6 font-normal"
+                      >
+                        "The onboarding team was incredible. We were fully
+                        migrated in two weeks. Our staff actually enjoys using
+                        the platform now."
+                      </p>
+                    </div>
+                    <div
+                      class="flex items-center gap-3.5 pt-4 border-t border-slate-100"
+                    >
+                      <div
+                        class="w-10 h-10 rounded-full bg-[#131433] text-white font-bold flex items-center justify-center text-sm shrink-0 shadow-sm"
+                      >
+                        J
+                      </div>
+                      <div class="overflow-hidden">
+                        <p
+                          class="font-medium text-ink text-sm sm:text-base leading-tight truncate"
+                        >
+                          Jennifer Osei
+                        </p>
+                        <p class="text-xs text-slate-500 truncate mt-0.5">
+                          Church Administrator · Grace Community, Calgary
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="w-85 sm:w-100 md:w-110 shrink-0 flex flex-col">
+                  <div
+                    class="bg-white rounded-2xl border border-slate-200/80 p-6 sm:p-7 flex flex-col justify-between h-full hover:shadow-md transition-shadow"
+                  >
+                    <div>
+                      <div class="flex gap-1 mb-4">
+                        <i
+                          data-lucide="star"
+                          class="w-[15px] h-[15px] text-[#66B2B2] fill-[#66B2B2]"
+                        ></i>
+                        <i
+                          data-lucide="star"
+                          class="w-[15px] h-[15px] text-[#66B2B2] fill-[#66B2B2]"
+                        ></i>
+                        <i
+                          data-lucide="star"
+                          class="w-[15px] h-[15px] text-[#66B2B2] fill-[#66B2B2]"
+                        ></i>
+                        <i
+                          data-lucide="star"
+                          class="w-[15px] h-[15px] text-[#66B2B2] fill-[#66B2B2]"
+                        ></i>
+                        <i
+                          data-lucide="star"
+                          class="w-[15px] h-[15px] text-[#66B2B2] fill-[#66B2B2]"
+                        ></i>
+                      </div>
+                      <p
+                        class="text-[#1C1A40BF] text-sm leading-relaxed mb-6 font-normal"
+                      >
+                        "The mobile app alone has transformed how our
+                        congregation engages. Giving is up 23% since launch and
+                        attendance tracking is effortless."
+                      </p>
+                    </div>
+                    <div
+                      class="flex items-center gap-3.5 pt-4 border-t border-slate-100"
+                    >
+                      <div
+                        class="w-10 h-10 rounded-full bg-[#131433] text-white font-bold flex items-center justify-center text-sm shrink-0 shadow-sm"
+                      >
+                        P
+                      </div>
+                      <div class="overflow-hidden">
+                        <p
+                          class="font-medium text-ink text-sm sm:text-base leading-tight truncate"
+                        >
+                          Pastor David Lin
+                        </p>
+                        <p class="text-xs text-slate-500 truncate mt-0.5">
+                          Executive Pastor · Harvest Fellowship, Vancouver
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="w-full overflow-hidden py-2">
+              <div
+                class="flex items-stretch gap-4 w-max marquee-row-left"
+                style="--marquee-duration: 38s"
+              >
+                <div class="w-85 sm:w-100 md:w-110 shrink-0 flex flex-col">
+                  <div
+                    class="bg-white rounded-2xl border border-slate-200/80 p-6 sm:p-7 flex flex-col justify-between h-full hover:shadow-md transition-shadow"
+                  >
+                    <div>
+                      <div class="flex gap-1 mb-4">
+                        <i
+                          data-lucide="star"
+                          class="w-[15px] h-[15px] text-[#66B2B2] fill-[#66B2B2]"
+                        ></i>
+                        <i
+                          data-lucide="star"
+                          class="w-[15px] h-[15px] text-[#66B2B2] fill-[#66B2B2]"
+                        ></i>
+                        <i
+                          data-lucide="star"
+                          class="w-[15px] h-[15px] text-[#66B2B2] fill-[#66B2B2]"
+                        ></i>
+                        <i
+                          data-lucide="star"
+                          class="w-[15px] h-[15px] text-[#66B2B2] fill-[#66B2B2]"
+                        ></i>
+                        <i
+                          data-lucide="star"
+                          class="w-[15px] h-[15px] text-[#66B2B2] fill-[#66B2B2]"
+                        ></i>
+                      </div>
+                      <p
+                        class="text-[#1C1A40BF] text-sm leading-relaxed mb-6 font-normal"
+                      >
+                        "As someone who came from corporate finance, the fund
+                        accounting in EkklésiasOne is the most rigorous I've
+                        seen in any church platform."
+                      </p>
+                    </div>
+                    <div
+                      class="flex items-center gap-3.5 pt-4 border-t border-slate-100"
+                    >
+                      <div
+                        class="w-10 h-10 rounded-full bg-[#131433] text-white font-bold flex items-center justify-center text-sm shrink-0 shadow-sm"
+                      >
+                        A
+                      </div>
+                      <div class="overflow-hidden">
+                        <p
+                          class="font-medium text-ink text-sm sm:text-base leading-tight truncate"
+                        >
+                          Adeola Thompson
+                        </p>
+                        <p class="text-xs text-slate-500 truncate mt-0.5">
+                          Finance Director · Covenant Church, Ottawa
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="w-85 sm:w-100 md:w-110 shrink-0 flex flex-col">
+                  <div
+                    class="bg-white rounded-2xl border border-slate-200/80 p-6 sm:p-7 flex flex-col justify-between h-full hover:shadow-md transition-shadow"
+                  >
+                    <div>
+                      <div class="flex gap-1 mb-4">
+                        <i
+                          data-lucide="star"
+                          class="w-[15px] h-[15px] text-[#66B2B2] fill-[#66B2B2]"
+                        ></i>
+                        <i
+                          data-lucide="star"
+                          class="w-[15px] h-[15px] text-[#66B2B2] fill-[#66B2B2]"
+                        ></i>
+                        <i
+                          data-lucide="star"
+                          class="w-[15px] h-[15px] text-[#66B2B2] fill-[#66B2B2]"
+                        ></i>
+                        <i
+                          data-lucide="star"
+                          class="w-[15px] h-[15px] text-[#66B2B2] fill-[#66B2B2]"
+                        ></i>
+                        <i
+                          data-lucide="star"
+                          class="w-[15px] h-[15px] text-[#66B2B2] fill-[#66B2B2]"
+                        ></i>
+                      </div>
+                      <p
+                        class="text-[#1C1A40BF] text-sm leading-relaxed mb-6 font-normal"
+                      >
+                        "We were on four platforms before. Now it's one. Our
+                        volunteers love the app, our giving is transparent, and
+                        our team has peace of mind."
+                      </p>
+                    </div>
+                    <div
+                      class="flex items-center gap-3.5 pt-4 border-t border-slate-100"
+                    >
+                      <div
+                        class="w-10 h-10 rounded-full bg-[#131433] text-white font-bold flex items-center justify-center text-sm shrink-0 shadow-sm"
+                      >
+                        P
+                      </div>
+                      <div class="overflow-hidden">
+                        <p
+                          class="font-medium text-ink text-sm sm:text-base leading-tight truncate"
+                        >
+                          Pastor Ruth Nakamura
+                        </p>
+                        <p class="text-xs text-slate-500 truncate mt-0.5">
+                          Senior Pastor · City Light Church, Edmonton
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="w-85 sm:w-100 md:w-110 shrink-0 flex flex-col">
+                  <div
+                    class="bg-white rounded-2xl border border-slate-200/80 p-6 sm:p-7 flex flex-col justify-between h-full hover:shadow-md transition-shadow"
+                  >
+                    <div>
+                      <div class="flex gap-1 mb-4">
+                        <i
+                          data-lucide="star"
+                          class="w-[15px] h-[15px] text-[#66B2B2] fill-[#66B2B2]"
+                        ></i>
+                        <i
+                          data-lucide="star"
+                          class="w-[15px] h-[15px] text-[#66B2B2] fill-[#66B2B2]"
+                        ></i>
+                        <i
+                          data-lucide="star"
+                          class="w-[15px] h-[15px] text-[#66B2B2] fill-[#66B2B2]"
+                        ></i>
+                        <i
+                          data-lucide="star"
+                          class="w-[15px] h-[15px] text-[#66B2B2] fill-[#66B2B2]"
+                        ></i>
+                        <i
+                          data-lucide="star"
+                          class="w-[15px] h-[15px] text-[#66B2B2] fill-[#66B2B2]"
+                        ></i>
+                      </div>
+                      <p
+                        class="text-[#1C1A40BF] text-sm leading-relaxed mb-6 font-normal"
+                      >
+                        "The AI automation handles our follow-up sequences,
+                        giving receipts, and volunteer reminders. It's like
+                        having a full admin team built in."
+                      </p>
+                    </div>
+                    <div
+                      class="flex items-center gap-3.5 pt-4 border-t border-slate-100"
+                    >
+                      <div
+                        class="w-10 h-10 rounded-full bg-[#131433] text-white font-bold flex items-center justify-center text-sm shrink-0 shadow-sm"
+                      >
+                        T
+                      </div>
+                      <div class="overflow-hidden">
+                        <p
+                          class="font-medium text-ink text-sm sm:text-base leading-tight truncate"
+                        >
+                          Thomas Mensah
+                        </p>
+                        <p class="text-xs text-slate-500 truncate mt-0.5">
+                          Director of Operations · Kingdom Embassy, Montreal
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="w-85 sm:w-100 md:w-110 shrink-0 flex flex-col">
+                  <div
+                    class="bg-white rounded-2xl border border-slate-200/80 p-6 sm:p-7 flex flex-col justify-between h-full hover:shadow-md transition-shadow"
+                  >
+                    <div>
+                      <div class="flex gap-1 mb-4">
+                        <i
+                          data-lucide="star"
+                          class="w-[15px] h-[15px] text-[#66B2B2] fill-[#66B2B2]"
+                        ></i>
+                        <i
+                          data-lucide="star"
+                          class="w-[15px] h-[15px] text-[#66B2B2] fill-[#66B2B2]"
+                        ></i>
+                        <i
+                          data-lucide="star"
+                          class="w-[15px] h-[15px] text-[#66B2B2] fill-[#66B2B2]"
+                        ></i>
+                        <i
+                          data-lucide="star"
+                          class="w-[15px] h-[15px] text-[#66B2B2] fill-[#66B2B2]"
+                        ></i>
+                        <i
+                          data-lucide="star"
+                          class="w-[15px] h-[15px] text-[#66B2B2] fill-[#66B2B2]"
+                        ></i>
+                      </div>
+                      <p
+                        class="text-[#1C1A40BF] text-sm leading-relaxed mb-6 font-normal"
+                      >
+                        "As someone who came from corporate finance, the fund
+                        accounting in EkklésiasOne is the most rigorous I've
+                        seen in any church platform."
+                      </p>
+                    </div>
+                    <div
+                      class="flex items-center gap-3.5 pt-4 border-t border-slate-100"
+                    >
+                      <div
+                        class="w-10 h-10 rounded-full bg-[#131433] text-white font-bold flex items-center justify-center text-sm shrink-0 shadow-sm"
+                      >
+                        A
+                      </div>
+                      <div class="overflow-hidden">
+                        <p
+                          class="font-medium text-ink text-sm sm:text-base leading-tight truncate"
+                        >
+                          Adeola Thompson
+                        </p>
+                        <p class="text-xs text-slate-500 truncate mt-0.5">
+                          Finance Director · Covenant Church, Ottawa
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="w-85 sm:w-100 md:w-110 shrink-0 flex flex-col">
+                  <div
+                    class="bg-white rounded-2xl border border-slate-200/80 p-6 sm:p-7 flex flex-col justify-between h-full hover:shadow-md transition-shadow"
+                  >
+                    <div>
+                      <div class="flex gap-1 mb-4">
+                        <i
+                          data-lucide="star"
+                          class="w-[15px] h-[15px] text-[#66B2B2] fill-[#66B2B2]"
+                        ></i>
+                        <i
+                          data-lucide="star"
+                          class="w-[15px] h-[15px] text-[#66B2B2] fill-[#66B2B2]"
+                        ></i>
+                        <i
+                          data-lucide="star"
+                          class="w-[15px] h-[15px] text-[#66B2B2] fill-[#66B2B2]"
+                        ></i>
+                        <i
+                          data-lucide="star"
+                          class="w-[15px] h-[15px] text-[#66B2B2] fill-[#66B2B2]"
+                        ></i>
+                        <i
+                          data-lucide="star"
+                          class="w-[15px] h-[15px] text-[#66B2B2] fill-[#66B2B2]"
+                        ></i>
+                      </div>
+                      <p
+                        class="text-[#1C1A40BF] text-sm leading-relaxed mb-6 font-normal"
+                      >
+                        "We were on four platforms before. Now it's one. Our
+                        volunteers love the app, our giving is transparent, and
+                        our team has peace of mind."
+                      </p>
+                    </div>
+                    <div
+                      class="flex items-center gap-3.5 pt-4 border-t border-slate-100"
+                    >
+                      <div
+                        class="w-10 h-10 rounded-full bg-[#131433] text-white font-bold flex items-center justify-center text-sm shrink-0 shadow-sm"
+                      >
+                        P
+                      </div>
+                      <div class="overflow-hidden">
+                        <p
+                          class="font-medium text-ink text-sm sm:text-base leading-tight truncate"
+                        >
+                          Pastor Ruth Nakamura
+                        </p>
+                        <p class="text-xs text-slate-500 truncate mt-0.5">
+                          Senior Pastor · City Light Church, Edmonton
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="w-85 sm:w-100 md:w-110 shrink-0 flex flex-col">
+                  <div
+                    class="bg-white rounded-2xl border border-slate-200/80 p-6 sm:p-7 flex flex-col justify-between h-full hover:shadow-md transition-shadow"
+                  >
+                    <div>
+                      <div class="flex gap-1 mb-4">
+                        <i
+                          data-lucide="star"
+                          class="w-[15px] h-[15px] text-[#66B2B2] fill-[#66B2B2]"
+                        ></i>
+                        <i
+                          data-lucide="star"
+                          class="w-[15px] h-[15px] text-[#66B2B2] fill-[#66B2B2]"
+                        ></i>
+                        <i
+                          data-lucide="star"
+                          class="w-[15px] h-[15px] text-[#66B2B2] fill-[#66B2B2]"
+                        ></i>
+                        <i
+                          data-lucide="star"
+                          class="w-[15px] h-[15px] text-[#66B2B2] fill-[#66B2B2]"
+                        ></i>
+                        <i
+                          data-lucide="star"
+                          class="w-[15px] h-[15px] text-[#66B2B2] fill-[#66B2B2]"
+                        ></i>
+                      </div>
+                      <p
+                        class="text-[#1C1A40BF] text-sm leading-relaxed mb-6 font-normal"
+                      >
+                        "The AI automation handles our follow-up sequences,
+                        giving receipts, and volunteer reminders. It's like
+                        having a full admin team built in."
+                      </p>
+                    </div>
+                    <div
+                      class="flex items-center gap-3.5 pt-4 border-t border-slate-100"
+                    >
+                      <div
+                        class="w-10 h-10 rounded-full bg-[#131433] text-white font-bold flex items-center justify-center text-sm shrink-0 shadow-sm"
+                      >
+                        T
+                      </div>
+                      <div class="overflow-hidden">
+                        <p
+                          class="font-medium text-ink text-sm sm:text-base leading-tight truncate"
+                        >
+                          Thomas Mensah
+                        </p>
+                        <p class="text-xs text-slate-500 truncate mt-0.5">
+                          Director of Operations · Kingdom Embassy, Montreal
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="w-85 sm:w-100 md:w-110 shrink-0 flex flex-col">
+                  <div
+                    class="bg-white rounded-2xl border border-slate-200/80 p-6 sm:p-7 flex flex-col justify-between h-full hover:shadow-md transition-shadow"
+                  >
+                    <div>
+                      <div class="flex gap-1 mb-4">
+                        <i
+                          data-lucide="star"
+                          class="w-[15px] h-[15px] text-[#66B2B2] fill-[#66B2B2]"
+                        ></i>
+                        <i
+                          data-lucide="star"
+                          class="w-[15px] h-[15px] text-[#66B2B2] fill-[#66B2B2]"
+                        ></i>
+                        <i
+                          data-lucide="star"
+                          class="w-[15px] h-[15px] text-[#66B2B2] fill-[#66B2B2]"
+                        ></i>
+                        <i
+                          data-lucide="star"
+                          class="w-[15px] h-[15px] text-[#66B2B2] fill-[#66B2B2]"
+                        ></i>
+                        <i
+                          data-lucide="star"
+                          class="w-[15px] h-[15px] text-[#66B2B2] fill-[#66B2B2]"
+                        ></i>
+                      </div>
+                      <p
+                        class="text-[#1C1A40BF] text-sm leading-relaxed mb-6 font-normal"
+                      >
+                        "As someone who came from corporate finance, the fund
+                        accounting in EkklésiasOne is the most rigorous I've
+                        seen in any church platform."
+                      </p>
+                    </div>
+                    <div
+                      class="flex items-center gap-3.5 pt-4 border-t border-slate-100"
+                    >
+                      <div
+                        class="w-10 h-10 rounded-full bg-[#131433] text-white font-bold flex items-center justify-center text-sm shrink-0 shadow-sm"
+                      >
+                        A
+                      </div>
+                      <div class="overflow-hidden">
+                        <p
+                          class="font-medium text-ink text-sm sm:text-base leading-tight truncate"
+                        >
+                          Adeola Thompson
+                        </p>
+                        <p class="text-xs text-slate-500 truncate mt-0.5">
+                          Finance Director · Covenant Church, Ottawa
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="w-85 sm:w-100 md:w-110 shrink-0 flex flex-col">
+                  <div
+                    class="bg-white rounded-2xl border border-slate-200/80 p-6 sm:p-7 flex flex-col justify-between h-full hover:shadow-md transition-shadow"
+                  >
+                    <div>
+                      <div class="flex gap-1 mb-4">
+                        <i
+                          data-lucide="star"
+                          class="w-[15px] h-[15px] text-[#66B2B2] fill-[#66B2B2]"
+                        ></i>
+                        <i
+                          data-lucide="star"
+                          class="w-[15px] h-[15px] text-[#66B2B2] fill-[#66B2B2]"
+                        ></i>
+                        <i
+                          data-lucide="star"
+                          class="w-[15px] h-[15px] text-[#66B2B2] fill-[#66B2B2]"
+                        ></i>
+                        <i
+                          data-lucide="star"
+                          class="w-[15px] h-[15px] text-[#66B2B2] fill-[#66B2B2]"
+                        ></i>
+                        <i
+                          data-lucide="star"
+                          class="w-[15px] h-[15px] text-[#66B2B2] fill-[#66B2B2]"
+                        ></i>
+                      </div>
+                      <p
+                        class="text-[#1C1A40BF] text-sm leading-relaxed mb-6 font-normal"
+                      >
+                        "We were on four platforms before. Now it's one. Our
+                        volunteers love the app, our giving is transparent, and
+                        our team has peace of mind."
+                      </p>
+                    </div>
+                    <div
+                      class="flex items-center gap-3.5 pt-4 border-t border-slate-100"
+                    >
+                      <div
+                        class="w-10 h-10 rounded-full bg-[#131433] text-white font-bold flex items-center justify-center text-sm shrink-0 shadow-sm"
+                      >
+                        P
+                      </div>
+                      <div class="overflow-hidden">
+                        <p
+                          class="font-medium text-ink text-sm sm:text-base leading-tight truncate"
+                        >
+                          Pastor Ruth Nakamura
+                        </p>
+                        <p class="text-xs text-slate-500 truncate mt-0.5">
+                          Senior Pastor · City Light Church, Edmonton
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="w-85 sm:w-100 md:w-110 shrink-0 flex flex-col">
+                  <div
+                    class="bg-white rounded-2xl border border-slate-200/80 p-6 sm:p-7 flex flex-col justify-between h-full hover:shadow-md transition-shadow"
+                  >
+                    <div>
+                      <div class="flex gap-1 mb-4">
+                        <i
+                          data-lucide="star"
+                          class="w-[15px] h-[15px] text-[#66B2B2] fill-[#66B2B2]"
+                        ></i>
+                        <i
+                          data-lucide="star"
+                          class="w-[15px] h-[15px] text-[#66B2B2] fill-[#66B2B2]"
+                        ></i>
+                        <i
+                          data-lucide="star"
+                          class="w-[15px] h-[15px] text-[#66B2B2] fill-[#66B2B2]"
+                        ></i>
+                        <i
+                          data-lucide="star"
+                          class="w-[15px] h-[15px] text-[#66B2B2] fill-[#66B2B2]"
+                        ></i>
+                        <i
+                          data-lucide="star"
+                          class="w-[15px] h-[15px] text-[#66B2B2] fill-[#66B2B2]"
+                        ></i>
+                      </div>
+                      <p
+                        class="text-[#1C1A40BF] text-sm leading-relaxed mb-6 font-normal"
+                      >
+                        "The AI automation handles our follow-up sequences,
+                        giving receipts, and volunteer reminders. It's like
+                        having a full admin team built in."
+                      </p>
+                    </div>
+                    <div
+                      class="flex items-center gap-3.5 pt-4 border-t border-slate-100"
+                    >
+                      <div
+                        class="w-10 h-10 rounded-full bg-[#131433] text-white font-bold flex items-center justify-center text-sm shrink-0 shadow-sm"
+                      >
+                        T
+                      </div>
+                      <div class="overflow-hidden">
+                        <p
+                          class="font-medium text-ink text-sm sm:text-base leading-tight truncate"
+                        >
+                          Thomas Mensah
+                        </p>
+                        <p class="text-xs text-slate-500 truncate mt-0.5">
+                          Director of Operations · Kingdom Embassy, Montreal
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="w-85 sm:w-100 md:w-110 shrink-0 flex flex-col">
+                  <div
+                    class="bg-white rounded-2xl border border-slate-200/80 p-6 sm:p-7 flex flex-col justify-between h-full hover:shadow-md transition-shadow"
+                  >
+                    <div>
+                      <div class="flex gap-1 mb-4">
+                        <i
+                          data-lucide="star"
+                          class="w-[15px] h-[15px] text-[#66B2B2] fill-[#66B2B2]"
+                        ></i>
+                        <i
+                          data-lucide="star"
+                          class="w-[15px] h-[15px] text-[#66B2B2] fill-[#66B2B2]"
+                        ></i>
+                        <i
+                          data-lucide="star"
+                          class="w-[15px] h-[15px] text-[#66B2B2] fill-[#66B2B2]"
+                        ></i>
+                        <i
+                          data-lucide="star"
+                          class="w-[15px] h-[15px] text-[#66B2B2] fill-[#66B2B2]"
+                        ></i>
+                        <i
+                          data-lucide="star"
+                          class="w-[15px] h-[15px] text-[#66B2B2] fill-[#66B2B2]"
+                        ></i>
+                      </div>
+                      <p
+                        class="text-[#1C1A40BF] text-sm leading-relaxed mb-6 font-normal"
+                      >
+                        "As someone who came from corporate finance, the fund
+                        accounting in EkklésiasOne is the most rigorous I've
+                        seen in any church platform."
+                      </p>
+                    </div>
+                    <div
+                      class="flex items-center gap-3.5 pt-4 border-t border-slate-100"
+                    >
+                      <div
+                        class="w-10 h-10 rounded-full bg-[#131433] text-white font-bold flex items-center justify-center text-sm shrink-0 shadow-sm"
+                      >
+                        A
+                      </div>
+                      <div class="overflow-hidden">
+                        <p
+                          class="font-medium text-ink text-sm sm:text-base leading-tight truncate"
+                        >
+                          Adeola Thompson
+                        </p>
+                        <p class="text-xs text-slate-500 truncate mt-0.5">
+                          Finance Director · Covenant Church, Ottawa
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="w-85 sm:w-100 md:w-110 shrink-0 flex flex-col">
+                  <div
+                    class="bg-white rounded-2xl border border-slate-200/80 p-6 sm:p-7 flex flex-col justify-between h-full hover:shadow-md transition-shadow"
+                  >
+                    <div>
+                      <div class="flex gap-1 mb-4">
+                        <i
+                          data-lucide="star"
+                          class="w-[15px] h-[15px] text-[#66B2B2] fill-[#66B2B2]"
+                        ></i>
+                        <i
+                          data-lucide="star"
+                          class="w-[15px] h-[15px] text-[#66B2B2] fill-[#66B2B2]"
+                        ></i>
+                        <i
+                          data-lucide="star"
+                          class="w-[15px] h-[15px] text-[#66B2B2] fill-[#66B2B2]"
+                        ></i>
+                        <i
+                          data-lucide="star"
+                          class="w-[15px] h-[15px] text-[#66B2B2] fill-[#66B2B2]"
+                        ></i>
+                        <i
+                          data-lucide="star"
+                          class="w-[15px] h-[15px] text-[#66B2B2] fill-[#66B2B2]"
+                        ></i>
+                      </div>
+                      <p
+                        class="text-[#1C1A40BF] text-sm leading-relaxed mb-6 font-normal"
+                      >
+                        "We were on four platforms before. Now it's one. Our
+                        volunteers love the app, our giving is transparent, and
+                        our team has peace of mind."
+                      </p>
+                    </div>
+                    <div
+                      class="flex items-center gap-3.5 pt-4 border-t border-slate-100"
+                    >
+                      <div
+                        class="w-10 h-10 rounded-full bg-[#131433] text-white font-bold flex items-center justify-center text-sm shrink-0 shadow-sm"
+                      >
+                        P
+                      </div>
+                      <div class="overflow-hidden">
+                        <p
+                          class="font-medium text-ink text-sm sm:text-base leading-tight truncate"
+                        >
+                          Pastor Ruth Nakamura
+                        </p>
+                        <p class="text-xs text-slate-500 truncate mt-0.5">
+                          Senior Pastor · City Light Church, Edmonton
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="w-85 sm:w-100 md:w-110 shrink-0 flex flex-col">
+                  <div
+                    class="bg-white rounded-2xl border border-slate-200/80 p-6 sm:p-7 flex flex-col justify-between h-full hover:shadow-md transition-shadow"
+                  >
+                    <div>
+                      <div class="flex gap-1 mb-4">
+                        <i
+                          data-lucide="star"
+                          class="w-[15px] h-[15px] text-[#66B2B2] fill-[#66B2B2]"
+                        ></i>
+                        <i
+                          data-lucide="star"
+                          class="w-[15px] h-[15px] text-[#66B2B2] fill-[#66B2B2]"
+                        ></i>
+                        <i
+                          data-lucide="star"
+                          class="w-[15px] h-[15px] text-[#66B2B2] fill-[#66B2B2]"
+                        ></i>
+                        <i
+                          data-lucide="star"
+                          class="w-[15px] h-[15px] text-[#66B2B2] fill-[#66B2B2]"
+                        ></i>
+                        <i
+                          data-lucide="star"
+                          class="w-[15px] h-[15px] text-[#66B2B2] fill-[#66B2B2]"
+                        ></i>
+                      </div>
+                      <p
+                        class="text-[#1C1A40BF] text-sm leading-relaxed mb-6 font-normal"
+                      >
+                        "The AI automation handles our follow-up sequences,
+                        giving receipts, and volunteer reminders. It's like
+                        having a full admin team built in."
+                      </p>
+                    </div>
+                    <div
+                      class="flex items-center gap-3.5 pt-4 border-t border-slate-100"
+                    >
+                      <div
+                        class="w-10 h-10 rounded-full bg-[#131433] text-white font-bold flex items-center justify-center text-sm shrink-0 shadow-sm"
+                      >
+                        T
+                      </div>
+                      <div class="overflow-hidden">
+                        <p
+                          class="font-medium text-ink text-sm sm:text-base leading-tight truncate"
+                        >
+                          Thomas Mensah
+                        </p>
+                        <p class="text-xs text-slate-500 truncate mt-0.5">
+                          Director of Operations · Kingdom Embassy, Montreal
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CTA -->
+      <section
+        class="cta-section relative py-14 sm:py-20 overflow-hidden min-h-screen flex items-center justify-center"
+      >
+        <div
+          class="cta-bg-base absolute inset-0 pointer-events-none z-0"
+          aria-hidden="true"
+        ></div>
+        <div
+          class="cta-bottom-glow absolute inset-0 pointer-events-none z-[1]"
+          aria-hidden="true"
+        ></div>
+        <div
+          class="cta-bg-lines absolute z-[2] pointer-events-none"
+          aria-hidden="true"
+        >
+          <img src="../assets/images/ctabg.png" alt="" class="cta-bg-image" />
+        </div>
+        <div
+          class="relative z-10 max-w-3xl mx-auto px-5 sm:px-6 lg:px-8 text-center w-full"
+        >
+          <div
+            data-reveal
+            class="cta-badge inline-flex items-center gap-2.5 px-4 py-1.5 rounded-full text-xs font-medium mb-8"
+          >
+            <span class="w-2 h-2 rounded-full cta-badge-dot shrink-0"></span>
+            <span>Ready when you are</span>
+          </div>
+          <h2
+            data-reveal
+            class="cta-heading font-marcellus font-normal text-[2rem] sm:text-5xl lg:text-[3.25rem] leading-[1.15] mb-5 tracking-tight px-2"
+          >
+            Bring Your Whole Church<br />Into One Place.
+          </h2>
+          <p
+            data-reveal
+            data-delay="0.1"
+            class="cta-muted font-inter max-w-md mx-auto text-sm sm:text-base leading-relaxed mb-10 px-4"
+          >
+            See why churches are leaving their patchwork of apps behind for the
+            one platform that does it all.
+          </p>
+          <div
+            data-reveal
+            data-delay="0.2"
+            class="cta-card relative mx-auto p-8 sm:p-10 text-center mb-10"
+          >
+            <p class="cta-offer-label font-medium uppercase mb-4">
+              LIMITED-TIME OFFER
+            </p>
+            <h3
+              class="font-marcellus font-normal text-2xl sm:text-[1.85rem] cta-heading mb-3 leading-snug"
+            >
+              Start Your Free 30-Day Demo
+            </h3>
+            <p class="cta-muted text-xs sm:text-sm mb-8 leading-relaxed">
+              No credit card required � Full platform access � White-glove
+              onboarding included
+            </p>
+            <a
+              href="https://ekklesiasone.com/login"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="cta-btn-white inline-flex items-center justify-center gap-2 w-full sm:w-auto text-sm sm:text-base transition-all hover:scale-[1.02] no-underline"
+            >
+              Claim Your 30-Day Demo<i
+                data-lucide="arrow-right"
+                class="w-4 h-4"
+              ></i>
+            </a>
+          </div>
+          <div
+            data-reveal
+            data-delay="0.3"
+            class="flex flex-wrap items-center justify-center gap-3 sm:gap-4 mb-0"
+          >
+            <a
+              href="https://ekklesiasone.com/login"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="cta-btn-teal px-7 py-2.5 font-medium text-sm inline-flex items-center gap-2 transition-all no-underline"
+              >Book a Demo<i
+                data-lucide="arrow-right"
+                class="w-[15px] h-[15px]"
+              ></i
+            ></a>
+            <a
+              href="../pages/contact.html"
+              class="cta-btn-ghost px-7 py-2.5 font-medium text-sm inline-flex items-center gap-2 transition-all no-underline"
+              >Talk to Our Team</a
+            >
+          </div>
+          <div class="cta-divider-wrap w-full mx-auto pt-8">
+            <div
+              data-reveal
+              data-delay="0.4"
+              class="cta-trust flex flex-wrap items-center justify-center gap-x-10 gap-y-3 text-xs sm:text-sm"
+            >
+              <span class="flex items-center gap-2"
+                ><i
+                  data-lucide="check"
+                  class="cta-check w-3.5 h-3.5 shrink-0"
+                  style="stroke-width: 2.5"
+                ></i
+                >One System</span
+              >
+              <span class="flex items-center gap-2"
+                ><i
+                  data-lucide="check"
+                  class="cta-check w-3.5 h-3.5 shrink-0"
+                  style="stroke-width: 2.5"
+                ></i
+                >One Connected Ecosystem</span
+              >
+              <span class="flex items-center gap-2"
+                ><i
+                  data-lucide="check"
+                  class="cta-check w-3.5 h-3.5 shrink-0"
+                  style="stroke-width: 2.5"
+                ></i
+                >One Platform</span
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="bg-[#131330] text-slate-300">
+      <div class="container mx-auto px-5 sm:px-6 lg:px-8 pt-16 pb-8">
+        <div
+          class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10 lg:gap-8 pb-12"
+        >
+          <div class="lg:col-span-5 pr-0 lg:pr-6">
+            <a
+              href="../pages/home.html"
+              class="flex items-center gap-2.5 no-underline"
+            >
+              <img
+                src="../assets/images/favicon.png"
+                alt="EkklésiasOne"
+                class="w-9 h-9 rounded-lg"
+              />
+              <span class="font-marcellus text-xl text-white"
+                >EkklésiasOne</span
+              >
+            </a>
+            <p class="mt-6 text-sm text-slate-300 leading-relaxed max-w-sm">
+              The all-in-one church management platform that helps you organize
+              people, events, giving, and communication — so you can focus on
+              ministry, not admin.
+            </p>
+          </div>
+          <div class="lg:col-span-2">
+            <h4 class="font-semibold text-white text-base mb-5">Company</h4>
+            <ul class="space-y-3.5 text-sm">
+              <li>
+                <a
+                  href="../pages/home.html#overview"
+                  class="text-slate-300 hover:text-primary transition-colors no-underline"
+                  >About Us</a
+                >
+              </li>
+              <li>
+                <a
+                  href="../pages/contact.html"
+                  class="text-slate-300 hover:text-primary transition-colors no-underline"
+                  >Contact Us</a
+                >
+              </li>
+              <li>
+                <a
+                  href="../pages/home.html#testimonials"
+                  class="text-slate-300 hover:text-primary transition-colors no-underline"
+                  >Testimonials</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="lg:col-span-2">
+            <h4 class="font-semibold text-white text-base mb-5">Product</h4>
+            <ul class="space-y-3.5 text-sm">
+              <li>
+                <a
+                  href="../pages/home.html#features"
+                  class="text-slate-300 hover:text-primary transition-colors no-underline"
+                  >Features</a
+                >
+              </li>
+              <li>
+                <a
+                  href="../pages/home.html#pricing"
+                  class="text-slate-300 hover:text-primary transition-colors no-underline"
+                  >Pricing</a
+                >
+              </li>
+              <li>
+                <a
+                  href="../pages/faq.html"
+                  class="text-slate-300 hover:text-primary transition-colors no-underline"
+                  >FAQ</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="lg:col-span-3">
+            <div class="space-y-4 text-sm text-slate-300">
+              <p class="flex items-center gap-3">
+                <i
+                  data-lucide="mail"
+                  class="w-[18px] h-[18px] text-slate-200 shrink-0"
+                ></i>
+                <a
+                  href="mailto:support@ekklesiasone.com"
+                  class="text-slate-300 hover:text-primary transition-colors no-underline"
+                  >support@ekklesiasone.com</a
+                >
+              </p>
+              <p class="flex items-center gap-3">
+                <i
+                  data-lucide="phone"
+                  class="w-[18px] h-[18px] text-slate-200 shrink-0"
+                ></i>
+                <a
+                  href="tel:+15551234567"
+                  class="text-slate-300 hover:text-primary transition-colors no-underline"
+                  >+1 (555) 123-4567</a
+                >
+              </p>
+              <p class="flex items-center gap-3">
+                <i
+                  data-lucide="map-pin"
+                  class="w-[18px] h-[18px] text-slate-200 shrink-0"
+                ></i>
+                <a
+                  href="https://www.google.com/maps/search/?api=1&query=123+Ministry+Lane%2C+TX+75001"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="text-slate-300 hover:text-primary transition-colors no-underline"
+                  >123 Ministry Lane, TX 75001</a
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="pt-8 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs sm:text-sm text-slate-400"
+        >
+          <p>Copyright © <span id="footer-year"></span> EkklesiasOne</p>
+          <div class="flex items-center gap-3 text-slate-400">
+            <a
+              href="../pages/coming-soon.html"
+              class="hover:text-white transition-colors no-underline"
+              >Term of use</a
+            >
+            <span class="text-white/20">|</span>
+            <a
+              href="../pages/coming-soon.html"
+              class="hover:text-white transition-colors no-underline"
+              >Privacy Policy</a
+            >
+            <span class="text-white/20">|</span>
+            <a
+              href="../pages/coming-soon.html"
+              class="hover:text-white transition-colors no-underline"
+              >Cookie Policy</a
+            >
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script>
+      document.getElementById("footer-year").textContent =
+        new Date().getFullYear();
+    </script>
+
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+    <script src="https://unpkg.com/lenis@1.3.17/dist/lenis.min.js"></script>
+    <script src="../assets/js/main.js"></script>
+  </body>
+</html>
